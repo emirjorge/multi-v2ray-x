@@ -194,7 +194,7 @@ downloadV2Ray(){
     [[ $KEY == "Xray" ]] && PACK_NAME=$KEY
     #DOWNLOAD_LINK="https://github.com/$REPOS/releases/download/${NEW_VER}/${PACK_NAME}-linux-${MACHINE}.zip"
    #DOWNLOAD_LINK="https://www.dropbox.com/s/84mzp9gtbtbko5b/v2ray-linux-64.zip"
-   DOWNLOAD_LINK="https://github.com/emirjorge/Premium-V2/master/update/v2ray-linux-64.zipp"
+   DOWNLOAD_LINK="https://github.com/emirjorge/Premium-V2/master/update/v2ray-linux-64.zip"
     #DOWNLOAD_LINK="https://github.com/v2fly/v2ray-core/releases/download/${VERSION}/${PACK_NAME}-linux-${MACHINE}.zip"
     colorEcho ${BLUE} "Downloading $KEY: ${DOWNLOAD_LINK}" &>/dev/null
   
